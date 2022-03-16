@@ -1,0 +1,14 @@
+<div class="col-6">
+<h2>Ejercicio 2</h2>
+<form>
+  <label for="base">Base</label>&nbsp;
+<input type="number" name="base" class="form-control" placeholder="Introduzca la base del triángulo" [(ngModel)]="base"><br><br>
+<label for="altura">Altura</label>&nbsp;
+<input type="number" name="altura" class="form-control" placeholder="Introduzca la altura" [(ngModel)]="altura"><br><br>
+
+<button class="btn btn-success" type="button" (click)="areaTriangulo()">Calcular área</button>
+<br><br>
+</form>
+<label>{{resultado}}</label>
+<router-outlet></router-outlet>
+</div>

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { Componente1Component } from '../components/componente1/componente1.component';
-import { Componente2Component } from '../components/componente2/componente2.component';
-import { Componente3Component } from '../components/componente3/componente3.component';
-import { Componente4Component } from '../components/componente4/componente4.component';
-import { Componente5Component } from '../components/componente5/componente5.component';
+import { Ejercicio1Component } from '../components/ejercicio1/ejercicio1.component';
+import { Ejercicio2Component } from '../components/ejercicio2/ejercicio2.component';
+import { Ejercicio3Component } from '../components/ejercicio3/ejercicio3.component';
+import { Ejercicio4Component } from '../components/ejercicio4/ejercicio4.component';
+import { Ejercicio5Component } from '../components/ejercicio5/ejercicio5.component';
 import { AppComponent } from '../app.component';
 
 const routes:Routes=[
@@ -15,24 +15,24 @@ const routes:Routes=[
     pathMatch:'full'//home
   },
   {
-    path:'componente1',
-    component:Componente1Component,
+    path:'ejercicio1',
+    component:Ejercicio1Component,
   },
   {
-    path:'componente2',
-    component:Componente2Component,
+    path:'ejercicio2',
+    component:Ejercicio2Component,
   },
   {
-    path:'componente3',
-    component:Componente3Component,
+    path:'ejercicio3',
+    component:Ejercicio3Component,
   },
   {
-    path:'componente4',
-    component:Componente4Component,
+    path:'ejercicio4',
+    component:Ejercicio4Component,
   },
   {
-    path:'componente5',
-    component:Componente5Component,
+    path:'ejercicio5',
+    component:Ejercicio5Component,
   },
   {
     path:'*',

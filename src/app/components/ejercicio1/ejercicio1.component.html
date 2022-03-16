@@ -1,0 +1,15 @@
+<div class="col-6">
+<h2>Ejercicio 1</h2>
+<form>
+  <label for="num1">Primer número</label>
+<input type="number" name="num1" class="form-control" placeholder="Introduzca el primer número" [(ngModel)]="num1"><br><br>
+<label for="num1">Segundo número</label>
+<input type="number" name="num2" class="form-control" placeholder="Introduzca el segundo número" [(ngModel)]="num2"><br><br>
+<button class="btn btn-success" type="button" (click)="sumar()">Sumar</button>&nbsp;
+<button class="btn btn-success" type="button" (click)="restar()">Restar</button>&nbsp;
+<button class="btn btn-success" type="button" (click)="multiplicar()">Multiplicar</button>&nbsp;
+<button class="btn btn-success" type="button" (click)="dividir()">Dividir</button>&nbsp;
+<br><br>
+</form>
+<label>{{resultado}}</label>
+</div>

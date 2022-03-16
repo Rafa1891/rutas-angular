@@ -1,0 +1,14 @@
+<div class="col-6">
+<h2>Ejercicio 3</h2>
+<form>
+  <label for="lado1">Lado 1</label>&nbsp;
+<input type="number" name="lado1" class="form-control" placeholder="Introduzca el primer lado" [(ngModel)]="lado1"><br><br>
+<label for="lado2">Lado 2</label>&nbsp;
+<input type="number" name="lado2" class="form-control" placeholder="Introduzca el segundo lado" [(ngModel)]="lado2"><br><br>
+
+<button class="btn btn-success" type="button" (click)="perimetroRectangulo()">Calcular perímetro</button>
+<br><br>
+</form>
+<label>{{resultado}}</label>
+<router-outlet></router-outlet>
+</div>
