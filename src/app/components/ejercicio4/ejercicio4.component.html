@@ -1,1 +1,17 @@
-<p>componente4 works!</p>
+<div class="col-6">
+  <h2>Ejercicio 4</h2>
+  <form method="post" (ngSubmit)="agregarEmpleado()">
+
+    <label for="nombre">Nombre</label>
+  <input type="text" name="nombre" class="form-control" placeholder="Introduzca el nombre" [(ngModel)]="nuevo.nombre"><br><br>
+  <label for="sueldo">Sueldo</label>
+  <input type="number" name="sueldo" class="form-control" placeholder="Introduzca el sueldo" [(ngModel)]="nuevo.sueldo"><br><br>
+
+  <button class="btn btn-success" type="submit">Agregar empleado</button>&nbsp;
+  <button class="btn btn-success" type="button" (click)="mostrarNombres()">Mostrar nombres</button>&nbsp;
+  <button class="btn btn-success" type="button" (click)="mayorSueldo()">Mostrar mayor sueldo</button>&nbsp;
+
+  <br><br>
+  </form>
+  <label>{{resultado}}</label>
+  </div>

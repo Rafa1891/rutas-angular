@@ -1,1 +1,14 @@
-<p>componente5 works!</p>
+<div class="col-6">
+  <h2>Ejercicio 5</h2>
+  <form>
+
+  <label for="presu">Presupuesto anual</label>&nbsp;
+  <input type="number" name="presu" class="form-control" placeholder="Introduzca el presupuesto anual." [(ngModel)]="presu"><br><br>
+
+  <button class="btn btn-success" type="button" (click)="calcularPartidas()">Calcular partidas</button>
+  <br><br>
+  </form>
+  <label>{{resultado}}</label>
+  <router-outlet></router-outlet>
+  </div>
+
